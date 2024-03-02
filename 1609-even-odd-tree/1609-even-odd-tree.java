@@ -83,11 +83,8 @@ class Solution {
             {
                 System.out.print(v+" ");
             }
-            System.out.println();
             if(!helper(ls, count))
                 return false;
-            System.out.println(helper(ls, count));
-            System.out.println("--------------------");
             if(ls.size() == 0)
                 break;
             q.add(new TreeNode(-1));
